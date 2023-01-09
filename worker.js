@@ -21,7 +21,6 @@ const sortAggregations = {
 const baseUrl = "https://www.roblox.com/catalog"
 
 const patterns = [
-	// ugc.works/neko/username/sales/week
 	{ regex: /^\/([\w\d]+)\/?$/i, captures: [ "searchQuery" ] },
 	{ regex: /^\/([\w\d]+)\/([^\/]+)\/?$/i, captures: [ "searchQuery", "sort" ] },
 	{ regex: /^\/([\w\d]+)\/([^\/]+)\/(\w+)\/?$/i, captures: [ "searchQuery", "sort", "sortAggregation" ] },
