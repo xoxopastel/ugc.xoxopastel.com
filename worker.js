@@ -32,7 +32,7 @@ async function constructRedirectUrl(data) {
 		Subcategory: 40, // All Creations
 	}
 
-	parameters.CreatorName = "xoxo, pastel"
+	parameters.CreatorName = "xoxo,%pastel"
     parameters.CreatorType = "Group"
 
 	if (data.searchQuery) {
